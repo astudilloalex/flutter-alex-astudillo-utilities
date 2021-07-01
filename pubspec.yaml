@@ -1,0 +1,23 @@
+name: alex_astudillo_utilities
+description: It contains all the libraries created by Alex Astudillo, import only this one and you will have all the functionalities of the other libraries.
+version: 1.0.0
+homepage: https://github.com/astudilloalex/flutter-alex-astudillo-utilities
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # https://pub.dev/packages/responsive_design
+  responsive_design: ^0.0.9
+  # https://pub.dev/packages/simple_gradient_text
+  simple_gradient_text: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
