@@ -9,38 +9,38 @@ It contains all the libraries created by Alex Astudillo, import only this one an
 1. [simple_gradient_text](https://pub.dev/packages/simple_gradient_text)
     ```dart
     GradientText(
-        'Gradient Text Example',
-        style: TextStyle(
-            fontSize: 40.0,
-        ),
-        colors: [
-            Colors.blue,
-            Colors.red,
-            Colors.teal,
-        ],
-    ),
+      'Gradient Text Example',
+      style: TextStyle(
+        fontSize: 40.0,
+      ),
+      colors: [
+        Colors.blue,
+        Colors.red,
+        Colors.teal,
+      ],
+    )
     ```
 2. [responsive_design](https://pub.dev/packages/responsive_design)
     ```dart 
     ResponsiveAppBar(
-        title: Text('Example One'),
-        actions: [
-            AppBarAction(
-                child: Center(
-                    child: InkWell(
-                        onTap: () {},
-                        child: Text('Hello!'),
-                    ),
-                ),
+      title: Text('Example One'),
+      actions: [
+        AppBarAction(
+          child: Center(
+            child: InkWell(
+              onTap: () {},
+              child: Text('Hello!'),
             ),
-            AppBarAction(
-                child: Center(
-                    child: InkWell(
-                        onTap: () {},
-                        child: Text('World!'),
-                    ),
-                ),
+          ),
+        ),
+        AppBarAction(
+          child: Center(
+            child: InkWell(
+              onTap: () {},
+              child: Text('World!'),
             ),
-        ],
-    ),
+          ),
+        ),
+      ],
+    )
     ```
