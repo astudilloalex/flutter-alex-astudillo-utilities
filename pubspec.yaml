@@ -1,6 +1,6 @@
 name: alex_astudillo_utilities
 description: It contains all the libraries created by Alex Astudillo, import only this one and you will have all the functionalities of the other libraries.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/astudilloalex/flutter-alex-astudillo-utilities
 
 environment:
